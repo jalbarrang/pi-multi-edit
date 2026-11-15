@@ -16,7 +16,7 @@ the original bytes, never to a re-encoded copy.
 ## Install
 
 ```bash
-git clone https://github.com/jalbarran/pi-multi-edit
+git clone https://github.com/jalbarrang/pi-multi-edit
 pi install ./pi-multi-edit
 ```
 
