@@ -1,0 +1,27 @@
+{
+  "name": "@jalbarran/pi-multi-edit",
+  "version": "0.1.0",
+  "description": "Edit several files in one all-or-nothing tool call",
+  "keywords": [
+    "pi-package"
+  ],
+  "author": "Juan Albarran <jalbarrandev@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test/spec.ts"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.5.2",
+    "@types/node": "26",
+    "bun-types": "latest",
+    "typescript": "^7.0.2"
+  }
+}
